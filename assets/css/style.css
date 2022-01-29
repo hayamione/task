@@ -1,0 +1,82 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* body */
+
+body {
+    font-family: Poppins;
+}
+
+
+/* Header*/
+
+.header-top {
+    padding: 10px 0;
+}
+
+.header-menu {
+    padding: 10px 0;
+    background: #fff;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/* NavBar */
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.navbar-toggler>i {
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 5px;
+}
+
+.nav-item {
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Open Sans';
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #0bad0b;
+}
+
+.box1 {
+    background-color: rgb(11, 173, 11);
+    position: absolute;
+    left: -6px;
+    top: 194px;
+    width: 1680px;
+    height: 805px;
+    z-index: 3;
+}
+
+.box4 {
+    border-radius: 6px;
+    background-color: rgb(244, 244, 244);
+    position: absolute;
+    left: 934px;
+    top: 1198px;
+    width: 452px;
+    height: 525px;
+    z-index: 20;
+}
