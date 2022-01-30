@@ -95,7 +95,7 @@ body {
 /* Banner */
 
 .carousel-inner .item {
-    background-image: url(../images/Layer2.jpg);
+    background-image: url(../images/Layer2.PNG);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -135,7 +135,36 @@ body {
     text-decoration: none;
 }
 
+.banner-control {
+    margin-top: -17px;
+    padding-bottom: 10px;
+}
 
+a.left>.glyphicon,
+a.right>.glyphicon {
+    padding: 5px 10px;
+    color: #fff;
+    background: #16d316;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+a.left:hover .glyphicon,
+a.right:hover .glyphicon {
+    padding: 5px 15px;
+    color: #fff;
+    background: #161616;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+a.left:hover .banner-control,
+a.right:hover .banner-control {
+    margin-top: -21px;
+    padding-bottom: 10px;
+}
+
+.right>span.glyphicon.fa.fa-angle-right
 /* About Section */
 
 .about {
@@ -460,7 +489,7 @@ body {
 /* Contact Section */
 
 .contact {
-    background-image: url(../images/Layer2.jpg);
+    background-image: url(../images/Layer2.png);
     background-size: cover;
 }
 
