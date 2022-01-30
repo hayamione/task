@@ -95,7 +95,7 @@ body {
 /* Banner */
 
 .carousel-inner .item {
-    background-image: url(../images/Layer2.PNG);
+    background-image: url(../images/Layer2.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
