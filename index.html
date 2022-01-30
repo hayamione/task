@@ -9,15 +9,21 @@
     <meta name="description" content="" />
 
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/Layer-4.png">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+    <!-- Owl Carousel -->
+    <link type="text/css" rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css" />
 
 </head>
 
@@ -31,7 +37,7 @@
                     <!-- Logo -->
                     <div class="col-md-12">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/images/logo.png" alt="#"></a>
+                            <a href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a>
                         </div>
                     </div>
                 </div>
@@ -55,12 +61,12 @@
 
                                 <div class="collapse navbar-collapse" id="myNavbar">
                                     <ul class="navbar-nav">
-                                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#latest-news">Blog</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#contactus">Contact Us</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -74,33 +80,505 @@
     </header>
     <!-- Header Section End -->
 
-    <!-- 
-    <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
+    <!-- Banner Section Starts -->
+    <section class="banner" id="home">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("header-nv").setAttribute("style", "position:fixed !important;");
-        }
-        else {
-            document.getElementById("header-nv").setAttribute("style", "position:unset;");
-        }
-    }
+                <div class="item active">
+                    <div class="overlay-banner">
+                        <div class="carousel-caption">
+                            <div class="col-md-offset-4 col-md-8">
+                                <h3>Design<br/> Of Furniture</h3>
+                                <p>There are so many variations of passages of Lorem Ipsum Available</p>
+                                <a class="read-more" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-banner">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-offset-4 col-md-8">
+                                    <h3>Design<br/> Of Furniture</h3>
+                                    <p>There are so many variations of passages of Lorem Ipsum Available</p>
+                                    <a class="read-more" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-banner">
+                        <div class="carousel-caption">
+                            <div class="col-md-offset-4 col-md-8">
+                                <h3>Design<br/> Of Furniture</h3>
+                                <p>There are so many variations of passages of Lorem Ipsum Available</p>
+                                <a class="read-more" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-                                </script>
- -->
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section Ends -->
+
+    <!-- About Section Starts -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-5">
+                    <div class="about-content">
+                        <div class="heading-title">
+                            <h1>About <span>Us</span></h1>
+                        </div>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour
+                        </p>
+                        <a class="read-button" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="about-img-bg"></div>
+                    <div class="about-img">
+                        <img src="assets/images/samuel-raita-RiDxDgHg7pw-unsplash.png" class="img-responsive" alt="About" title="About Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Service Section Starts -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="heading-title">
+                        <h1>Our <span>Services</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-1 col-md-3">
+                    <div class="services-box">
+                        <img src="assets/images/service1.png" alt="Services" title="Retina Ready" class="services-img">
+                        <h3>Retina Ready</h3>
+                        <p>many variations of passages of Lorem Ipsum available,</p>
+                    </div>
+                </div>
+                <div class="col-md-offset-2 col-md-3">
+                    <div class="services-box">
+                        <img src="assets/images/service2.png" alt="Services" title="Easy To Use" class="services-img">
+                        <h3>Easy-To-Use</h3>
+                        <p>many variations of passages of Lorem Ipsum available,</p>
+                    </div>
+                </div>
+                <div class="col-md-offset-4 col-md-3">
+                    <div class="mar-top services-box">
+                        <img src="assets/images/service3.png" alt="Services" title="Creative Elements" class="services-img">
+                        <h3>Creative Elements</h3>
+                        <p>many variations of passages of Lorem Ipsum available,</p>
+                    </div>
+                </div>
+                <div class="col-md-offset-2 col-md-3">
+                    <div class="mar-top services-box">
+                        <img src="assets/images/service4.png" alt="Services" title="Easy To Import" class="services-img">
+                        <h3>Easy To Import</h3>
+                        <p>many variations of passages of Lorem Ipsum available,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section Ends -->
+
+    <!-- Gallery Section Starts -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-center ">
+                    <div class="heading-title ">
+                        <h1>Our <span>Gallery</span></h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <div class="gallery-text ">
+                        <h3>Interior Design</h3>
+                        <p>of passages of Lorem Ipsum available, but the majority have suffer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-img ">
+                        <img src="assets/images/gallery-01.jpg " alt="Services " title="Gallery Image " class="img-responsive ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-img ">
+                        <img src="assets/images/gallery-02.jpg " alt="Services " title="Gallery Image " class="img-responsive ">
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <div class="gallery-img ">
+                        <img src="assets/images/gallery-03.jpg " alt="Services " title="Gallery Image " class="img-responsive ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-img ">
+                        <img src="assets/images/gallery-04.jpg " alt="Services " title="Gallery Image " class="img-responsive ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-text ">
+                        <h3>Interior Design</h3>
+                        <p>of passages of Lorem Ipsum available, but the majority have suffer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <div class="gallery-text ">
+                        <h3>Interior Design</h3>
+                        <p>of passages of Lorem Ipsum available, but the majority have suffer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-img ">
+                        <img src="assets/images/gallery-05.jpg " alt="Services " title="Gallery Image " class="img-responsive ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="gallery-img ">
+                        <img src="assets/images/gallery-06.jpg " alt="Services " title="Gallery Image " class="img-responsive ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Ends -->
+
+    <!-- New Ideas Section Starts -->
+    <section class="new-ideas">
+        <div class="container">
+            <div class="new-ideas-carousel owl-carousel owl-theme">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
+                            <div class="heading-title">
+                                <h1>New Ideas <span>Design</span></h1>
+                                <p>There are many variations of passages of Lorem Ipsum available, but theThere are many variations of passages of Lorem Ipsum available, but the</p>
+                            </div>
+                        </div>
+                        <div class="col-md-7 text-center ">
+                            <div class="new-ideas-img">
+                                <img src="assets/images/dan-gold-4HG3Ca3EzWw-unsplash.png" alt="Interior" class="img-responsive">
+                                <p class="new-ideas-img-text">There are many variations of passages of Lorem Ipsum available, but the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
+                            <div class="heading-title">
+                                <h1>New Ideas <span>Design</span></h1>
+                                <p>There are many variations of passages of Lorem Ipsum available, but theThere are many variations of passages of Lorem Ipsum available, but the</p>
+                            </div>
+                        </div>
+                        <div class="col-md-7 text-center ">
+                            <div class="new-ideas-img">
+                                <img src="assets/images/dan-gold-4HG3Ca3EzWw-unsplash.png" alt="Interior" class="img-responsive">
+                                <p class="new-ideas-img-text">There are many variations of passages of Lorem Ipsum available, but the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- New Ideas Section Ends -->
+
+    <!-- Latest News Section Starts -->
+    <section class="latest-news" id="latest-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="heading-title">
+                        <h1>Read Our <span>Latest News</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-2 col-md-4">
+                    <div class="news-box" style="margin-bottom:10%;">
+                        <div class="news-img">
+                            <div class="new1"><img src="assets/images/latest-news.jpg" class="img-responsive" alt="latest news"></div>
+                        </div>
+                        <div class="news-content">
+                            <p>Post By :limelight</span>
+                                <ul>
+                                    <li>Like <i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                                    <li>Comment <i class="fa fa-comments-o" aria-hidden="true"></i></li>
+                                    <li>Share <i class="fa fa-share-alt" aria-hidden="true"></i></li>
+                                </ul>
+                                <h3>Interior Design</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="news-box" style="margin-bottom:10%;">
+                        <div class="news-img">
+                            <div class="new2"><img src="assets/images/latest-news.jpg" class="img-responsive" alt="latest news"></div>
+                        </div>
+                        <div class="news-content">
+                            <p>Post By :limelight</span>
+                                <ul>
+                                    <li>Like <i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                                    <li>Comment <i class="fa fa-comments-o" aria-hidden="true"></i></li>
+                                    <li>Share <i class="fa fa-share-alt" aria-hidden="true"></i></li>
+                                </ul>
+                                <h3>Interior Design</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <a class="read-more" href="#"> Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Latest News Section Ends -->
+
+    <!-- Testimonials Section Starts -->
+    <section class="testimonials" id="testimonial">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="testimonials-section">
+                    <div class="testimonial-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-box">
+                                <img src="assets/images/testimonial1.png" alt="testimonial">
+                                <h3>HumouThere</h3>
+                                <p>
+                                    T suffered alteration in some form, by injected humouThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-box">
+                                <img src="assets/images/testimonial2.png" alt="testimonial">
+                                <h3>HumouThere</h3>
+                                <p>
+                                    T suffered alteration in some form, by injected humouThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="heading-title">
+                    <h1>Testimonials</h1>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Testimonials Section Ends -->
+
+    <!-- Contact Starts -->
+    <section class="contact" id="contact">
+        <div class="overlay-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-section">
+                            <form method="post" action="#" class="contact-form">
+                                <div class="title text-left">
+                                    <h2>CONTACT US</h2>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name" name="name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Email" name="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Phone number" name="phone" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Message" name="name" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" name="submit" value="submit" class="send-button">SEND</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="heading-title">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.277992410254!2d-0.07813798479967682!3d51.5081157184727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760349331f38dd%3A0xa8bf49dde1d56467!2sTower%20of%20London!5e0!3m2!1sen!2sin!4v1643558378439!5m2!1sen!2sin"
+                                frameborder="0" style="border:0; width: 100%;height:400px;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section Ends -->
+
+    <!-- Footer Starts -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <p class="footerp">There are many variat ions of passages of L orem Ipsum available , but the majority h ave suffered altera tion in some form, by
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3 class="footerh3">LET US HELP YOU </h3>
+                        <p class="footerp">There are many variat ions of passages of L orem Ipsum available , but the majority h ave suffered altera tion in some form, by
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3 class="footerh3">INFORMATION</h3>
+                        <ul class="menu-footer">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about"> About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#testimonial">Testimonial</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3 class="footerh3">OUR Design</h3>
+                        <p class="footerp">There are many variat ions of passages of L orem Ipsum available , but the majority h ave suffered altera tion in some form, by
+                        </p>
+                    </div>
+                    <div class="col-md-offset-6 col-md-6 text-right">
+                        <form class="footer-form" method="post" action="#">
+                            <input class="form-control" placeholder="Enter your email" type="email" name="Enter your email">
+                            <button class="subcribe-btn">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>© 2019 All Rights Reserved. Design by <a href="#"> Free Html Templates</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("header-nv ").setAttribute("style ", "position:fixed !important;top: 0; ");
+            } else {
+                document.getElementById("header-nv ").setAttribute("style ", "position:unset;top: 0; ");
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script> -->
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="assets/owlcarousel/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/owlcarousel/js/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $('.new-ideas-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+            //owl.trigger('play.owl.autoplay',[1000]);
+        })
+    </script>
+
+    <script type="text/javascript">
+        $('.testimonial-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+    </script>
 
 </body>
 
