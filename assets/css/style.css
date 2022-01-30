@@ -295,7 +295,7 @@ a.right:hover .banner-control {
 }
 
 .new-ideas .col-md-5 p {
-    padding: 30px 56px 0;
+    padding: 30px 56px 20px;
     font-size: 17px;
     line-height: 31px;
     color: #2a2b2a;
