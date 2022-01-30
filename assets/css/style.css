@@ -95,7 +95,7 @@ body {
 /* Banner */
 
 .carousel-inner .item {
-    background-image: url(../images/Layer2.png);
+    background-image: url(../images/Layer2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -460,7 +460,7 @@ body {
 /* Contact Section */
 
 .contact {
-    background-image: url(../images/Layer2.png);
+    background-image: url(../images/Layer2.jpg);
     background-size: cover;
 }
 
