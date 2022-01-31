@@ -26,7 +26,7 @@
         margin-right: -52%;
     }
     .testimonials .col-md-4 .heading-title {
-        margin-top: 50% !important;
+        margin-top: 30% !important;
     }
     .testimonial-carousel>.owl-nav {
         position: absolute;
@@ -56,6 +56,9 @@
     .nav-item {
     display: block ;
     }
+    .nav-item {
+    padding: 5px 20px;
+    }
     .carousel-caption h3 {
         font-size: 30px;
     }
@@ -81,8 +84,8 @@
     }
     .testimonial-carousel>.owl-nav {
         position: absolute;
-        bottom: -63%;
-        left: 18%;
+        top: 97%;
+    left: 18%;
     }
 }
 @media screen and (max-width: 420px) {
