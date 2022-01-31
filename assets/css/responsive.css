@@ -84,6 +84,6 @@
 }
 @media screen and (max-width: 420px) {
     .owl-theme .owl-nav {
-        margin-top: 24%;
+        margin-top: 24% !important;
     }
 }
