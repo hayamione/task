@@ -53,6 +53,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .nav-item {
+    display: block ;
+    }
     .carousel-caption h3 {
         font-size: 30px;
     }
