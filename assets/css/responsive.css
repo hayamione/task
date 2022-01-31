@@ -41,6 +41,12 @@
         padding: 0 30px;
     }
 }
+@media screen and (min-width: 1200px) {
+    .testimonials .col-md-4 .heading-title {
+        margin-top: 10% !important;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .carousel-caption h3 {
