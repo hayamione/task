@@ -41,12 +41,16 @@
         padding: 0 30px;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .testimonials .col-md-4 .heading-title {
         margin-top: 10% !important;
     }
+    .testimonial-carousel>.owl-nav {
+        right: -39% !important;
+        top: -3% !important;
+    }
 }
-
 
 @media screen and (max-width: 768px) {
     .carousel-caption h3 {
@@ -76,5 +80,10 @@
         position: absolute;
         bottom: -63%;
         left: 18%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .owl-theme .owl-nav {
+        margin-top: 24%;
     }
 }
