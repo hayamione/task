@@ -433,8 +433,8 @@ a.right:hover .banner-control {
 
 .testimonial-box img,
 .testimonial-carousel .item img {
-    margin-top: -25%;
-    margin-left: -11px;
+    margin-top: -50px;
+    margin-left: -8px;
     border-radius: 50%;
     width: 113px !important;
 }
